@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css">
+    <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
+    <title>Sairam Bandi</title>
+</head>
+<body>
+<div class="container product-container">
+    <div class="row">
+        <div class="col-sm-6 col-xs-12 tgrid prodcut-img" >
+            <div class ="row" >
+                <div class = "main-img" >
+                    <img src="assests/main_image.svg" alt="Clarifeon main img " style="max-width:100%;max-height: 100%">
+                </div>
+            </div>
+            <div class ="row review-section">
+                <div class ="row review-header" >
+                    <div class="col-3">
+                        <div class="review-img">
+                            <img src="assests/review_img.svg" alt="Clarifeon main img " style="max-width:100%;max-height: 100%">
+                        </div>
+                    </div>
+                    <div class="col ml-2">
+                        <div class="row stars">
+                            <img src="assests/Stars.svg" alt="review stars" style=" width: 78.11px;height: 11.95px";
+                            >
+                        </div>
+                        <div class="row d-flex flex-row">
+                            <div class="reviewer-name">Ken T.</div>
+                            <div class="verify-tag">
+                                <img src="assests/verify.svg" alt="verify tag" >
+                            </div>
+                            <div class="verified-badge" >Verified Customer</div>
+                        </div>
+                    </div>
+                </div>
+                <div class ="row review-body" >
+                    “As soon as the Clarifions arrived I put one in my bedroom. This was late in the afternoon. When I went to the bedroom in the evening it smelled clean. When I went to bed I felt I could breathe better. Wonderful.”
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xs-12 tgrid product-details"   >
+        <div class="row product-heading">
+          <p>
+              <span class="product-heading-blue">ONE TIME ONLY</span> special price for 6 extra Clarifion for only <span class="product-heading-blue">$14 each</span>  ($84.00 total!)
+
+
+          </p>      </div>
+            <div class="row product-short-summary">
+                <div class="col"
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyAONwWpmn2JEZT8RJMuo-iya1Ay5qxaQ2M",
+        authDomain: "sairam-bandi-ejam-project.firebaseapp.com",
+        projectId: "sairam-bandi-ejam-project",
+        storageBucket: "sairam-bandi-ejam-project.appspot.com",
+        messagingSenderId: "436493685952",
+        appId: "1:436493685952:web:bd73b3d9edc6c81e8dc925",
+        measurementId: "G-21LNM6RE29"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+</script>
+
+</body>
+</html>
